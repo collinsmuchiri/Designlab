@@ -1,0 +1,142 @@
+.designlablogo{
+    margin-left: 80px;
+    width: 70px;}
+
+.Work_button {
+    font-family: 'Montserrat';
+    margin-right: 206px;
+    display: inline-block;
+    background-color: #ffffff;
+    border: #ffffff 1px solid;
+    color: #06AFA3;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition-duration: 500ms;
+    transition: ease-in-out;}
+    
+.Work_button:hover{
+    border-color: #2b2828;}
+
+.About_button {
+    font-family: 'Montserrat';
+    margin-right: 206px;
+    display: inline-block;
+    background-color: #ffffff;
+    color: #06AFA3;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 30px; 
+    border-width: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;}
+
+.Contact_button {
+    font-family: 'Montserrat';
+    margin-right: 206px;
+    display: inline-block;
+    background-color: #ffffff;
+    color:#06AFA3;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 30px;
+    border-width: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;}
+
+.ReachUs_button {
+    font-family: 'Montserrat';
+    margin-right: 40px;
+    display: inline-block;
+    background-color: #ffffff;
+    color:#06AFA3;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 30px;
+    border-width: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;}
+
+.Header_elements_div{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}        
+
+.designlab_logo_div{
+    display: inline-block;}
+
+.Buttons_div{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 0px;
+    align-items: center;
+    float: right;}
+
+.imagine_create{
+    width: 70px;
+    margin-left: 75px;
+    margin-top: 72px;}
+    
+.imagine_create_div{
+    display: inline-block;}
+    
+.we_create_phenomenal{
+    display: inline-block;}
+
+.landing_page_elements_div{
+    display: flex;}
+    
+.we_create_txt{
+    font-family: 'montserrat';
+    font-size: 20px;}    
+
+.phenomenal{
+    font-family: 'italiana';
+    font-size: 50px;}
+
+.Visual_experiences{
+    font-family: 'Sorts Mill Goudy';
+    font-style: italic;
+    font-size: 20px;}    
+
+.we_create_phenomenal_div{
+    margin-left: 100px;
+    margin-top: 70px;}    
+
+.floating_mac{
+    width: 600px;
+    margin-top: 0px;}
+    
+.text_paragraph_div{
+    display: flex;}
+    
+.paragraph_text{
+    font-family: 'montserrat';
+    font-size: 13px;
+    color: #A1A1A1;}
+    
+.lets_go_button{
+    display: flex;
+    font-family: 'montserrat';
+    color: #06AFA3;
+    background-color: #ffffff;
+    border: #06AFA3 solid 1.3px;
+    padding: 15px 38px 15px 38px;
+    border-radius: 30px;
+    margin-top: 20px ;}
+
+.lets_go_button:hover{
+    background-color: #06AFA3;
+    color: #ffffff;
+    transition: ease-in-out;
+    transition-duration: 200ms;
+}    
