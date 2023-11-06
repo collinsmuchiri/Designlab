@@ -138,5 +138,50 @@
     background-color: #06AFA3;
     color: #ffffff;
     transition: ease-in-out;
-    transition-duration: 200ms;
+    transition-duration: 200ms;}
+
+.meticulous_div{
+    margin-top: 120px;
+    margin-left: 120px;
 }    
+    
+.meticulously_handcrafted{
+    display: inline-block;
+    width: 1000px;}
+    
+.floating_iphone{
+    width: 850px;
+    margin-top: -100px;
+    margin-left: 130px;}
+    
+.amateurs{
+    text-align: center;
+    margin-top: -70px;
+margin-right: 60px;}
+    
+.amateurs_text{
+    color: #06AFA3;
+    font-family: 'montserrat';
+    font-weight: bolder;
+    font-size: 20px;}
+    
+.we_design{
+    font-family: 'montserrat';
+    font-size: 13px;
+    color: #A1A1A1;}
+
+.the_design_process{
+    width: 1100px;}
+
+.the_design_process_div{
+    margin-top: 100px;
+    margin-left: 70px;}
+
+.roadmap{
+    width: 1100px;}
+    
+.roadmap_div{
+    margin-left: 70px;
+    margin-top: 80px;
+}
+    
