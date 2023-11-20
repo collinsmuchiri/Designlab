@@ -69,7 +69,8 @@
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
-    align-items: center;}        
+    align-items: center;}
+    
 
 .designlab_logo_div{
     display: inline-block;}
@@ -87,7 +88,15 @@
     margin-top: 72px;}
     
 .imagine_create_div{
-    display: inline-block;}
+    animation-name: imaginecreate;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    position: relative;
+    animation-delay: 2s;}
+
+@keyframes imaginecreate{
+    0%{left: -300px;}
+    100%{left: 0px,}}     
     
 .we_create_phenomenal{
     display: inline-block;}
@@ -110,7 +119,20 @@
 
 .we_create_phenomenal_div{
     margin-left: 100px;
-    margin-top: 70px;}    
+    margin-top: 70px;
+    animation-name: wecreatephenomenal;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    position: relative;
+    opacity: 0%;}   
+    
+@keyframes wecreatephenomenal{
+    0%{left: -300px;}
+    100%{opacity: 1;}
+    100%{left: 0px;}
+}
+
+
 
 .floating_mac{
     width: 600px;
@@ -182,6 +204,5 @@ margin-right: 60px;}
     
 .roadmap_div{
     margin-left: 70px;
-    margin-top: 80px;
-}
+    margin-top: 80px;}
     
