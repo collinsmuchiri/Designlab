@@ -1,10 +1,15 @@
-.designlablogo{
+.body{
     margin-left: 80px;
+    margin-right: 80px;
+}
+
+.designlablogo{
     width: 70px;}
 
 .Work_button {
     font-family: 'Montserrat';
-    margin-right: 206px;
+    position: absolute;
+    right: 895px;
     display: inline-block;
     background-color: #ffffff;
     border: #ffffff 1px solid;
@@ -22,7 +27,8 @@
 
 .About_button {
     font-family: 'Montserrat';
-    margin-right: 206px;
+    position: absolute;
+    right: 600px;
     display: inline-block;
     background-color: #ffffff;
     color: #06AFA3;
@@ -37,7 +43,8 @@
 
 .Contact_button {
     font-family: 'Montserrat';
-    margin-right: 206px;
+    position: absolute;
+    right: 300px;
     display: inline-block;
     background-color: #ffffff;
     color:#06AFA3;
@@ -52,7 +59,8 @@
 
 .ReachUs_button {
     font-family: 'Montserrat';
-    margin-right: 40px;
+    position: absolute;
+    right: 0;
     display: inline-block;
     background-color: #ffffff;
     color:#06AFA3;
@@ -67,42 +75,34 @@
 
 .Header_elements_div{
     margin-top: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;}
+    align-items: center;
+    position: relative;
+    display: flex;}
     
 
 .designlab_logo_div{
-    display: inline-block;}
+    display: flex;}
 
 .Buttons_div{
     display: flex;
-    justify-content: flex-start;
-    margin-right: 0px;
-    align-items: center;
-    float: right;}
+    justify-content: space-between;
+    align-items: center;}
 
 .imagine_create{
-    width: 70px;
-    margin-left: 75px;
+    width: 80px;
     margin-top: 72px;}
     
 .imagine_create_div{
-    animation-name: imaginecreate;
-    animation-fill-mode: forwards;
-    animation-duration: 2s;
-    position: relative;
-    animation-delay: 2s;}
-
-@keyframes imaginecreate{
-    0%{left: -300px;}
-    100%{left: 0px,}}     
+    position: absolute;
+    left: 0;}     
     
 .we_create_phenomenal{
     display: inline-block;}
 
 .landing_page_elements_div{
-    display: flex;}
+    display: flex;
+    position: relative;
+    justify-content: center;}
     
 .we_create_txt{
     font-family: 'montserrat';
@@ -129,10 +129,7 @@
 @keyframes wecreatephenomenal{
     0%{left: -300px;}
     100%{opacity: 1;}
-    100%{left: 0px;}
-}
-
-
+    100%{left: 0px;}}
 
 .floating_mac{
     width: 600px;
@@ -163,46 +160,56 @@
     transition-duration: 200ms;}
 
 .meticulous_div{
-    margin-top: 120px;
-    margin-left: 120px;
-}    
+    display: inline-block;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 400px;}    
     
 .meticulously_handcrafted{
-    display: inline-block;
-    width: 1000px;}
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-self: center;
+    width: 1100px;}
     
 .floating_iphone{
-    width: 850px;
-    margin-top: -100px;
-    margin-left: 130px;}
+    width: 760px;
+    position: absolute;
+    top: 80px;
+    left: 150px;}
     
 .amateurs{
-    text-align: center;
-    margin-top: -70px;
-margin-right: 60px;}
-    
-.amateurs_text{
-    color: #06AFA3;
-    font-family: 'montserrat';
-    font-weight: bolder;
-    font-size: 20px;}
+    position: absolute;
+    top: 250px;
+    right: -35px;
+    margin-right: 60px;}
+
+.templates_are_for_amateurs{
+    width: 250px;}    
     
 .we_design{
+    margin-top: 30px;
     font-family: 'montserrat';
+    text-align: left;
+    font-weight: 400;
     font-size: 13px;
     color: #A1A1A1;}
+
+.we_design_sentence{
+    font-weight: 700;
+    font-family: 'montserrat';}  
 
 .the_design_process{
     width: 1100px;}
 
 .the_design_process_div{
-    margin-top: 100px;
-    margin-left: 70px;}
+    position: relative;}
 
 .roadmap{
     width: 1100px;}
     
 .roadmap_div{
-    margin-left: 70px;
-    margin-top: 80px;}
-    
+    margin-top: 40px;}
+
+.statuette{
+    width: 600px;}    
