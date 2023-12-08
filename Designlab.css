@@ -1,6 +1,7 @@
 .body{
     margin-left: 80px;
     margin-right: 80px;
+    margin-bottom: 500px;
 }
 
 .designlablogo{
@@ -96,13 +97,11 @@
     position: absolute;
     left: 0;}     
     
-.we_create_phenomenal{
-    display: inline-block;}
 
 .landing_page_elements_div{
+    margin-bottom: 300px;
     display: flex;
-    position: relative;
-    justify-content: center;}
+    position: relative;}
     
 .we_create_txt{
     font-family: 'montserrat';
@@ -115,24 +114,22 @@
 .Visual_experiences{
     font-family: 'Sorts Mill Goudy';
     font-style: italic;
-    font-size: 20px;}    
+    font-size: 25px;}   
+    
+.we_create_phenomenal{
+    display: inline-block;}
 
 .we_create_phenomenal_div{
-    margin-left: 100px;
-    margin-top: 70px;
-    animation-name: wecreatephenomenal;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-    position: relative;
-    opacity: 0%;}   
-    
-@keyframes wecreatephenomenal{
-    0%{left: -300px;}
-    100%{opacity: 1;}
-    100%{left: 0px;}}
+    position: absolute;
+    left: 140px;
+    top: 70px;
+    position: relative;}
 
 .floating_mac{
-    width: 600px;
+    position: absolute;
+    right: 0;
+    top: -20px;
+    width: 700px;
     margin-top: 0px;}
     
 .text_paragraph_div{
@@ -163,7 +160,7 @@
     display: inline-block;
     position: relative;
     margin-top: 100px;
-    margin-bottom: 400px;}    
+    margin-bottom: 200px;}    
     
 .meticulously_handcrafted{
     position: relative;
@@ -172,16 +169,25 @@
     justify-self: center;
     width: 1100px;}
     
-.floating_iphone{
+/*.floating_iphone{
     width: 760px;
     position: absolute;
     top: 80px;
-    left: 150px;}
+    left: 150px;}*/
+
+.phone_hands{
+    position: absolute;
+    top: 115px;
+    left: -80px;} 
+
+.phone_hands_image{
+    width: 1265px;
+}    
     
 .amateurs{
     position: absolute;
-    top: 250px;
-    right: -35px;
+    top: 210px;
+    left: 40px;
     margin-right: 60px;}
 
 .templates_are_for_amateurs{
@@ -197,19 +203,63 @@
 
 .we_design_sentence{
     font-weight: 700;
-    font-family: 'montserrat';}  
-
-.the_design_process{
-    width: 1100px;}
+    font-family: 'montserrat';}
 
 .the_design_process_div{
-    position: relative;}
+    z-index: 50;
+    position: relative;
+    margin-bottom: 1250px;}
+
+.we_follow_div{
+    position: relative;
+    margin-bottom: 400px;}  
+    
+.we_follow_text{
+    position: absolute;
+    right: 0;
+    top: 280px;
+    color: #4F4F4F;
+    font-family: 'montserrat';
+    font-size: 20px;
+    text-align: right;}
+
+.exactly_how{
+    font-weight: 700;}    
+
+.design_process_text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+}    
 
 .roadmap{
     width: 1100px;}
     
 .roadmap_div{
-    margin-top: 40px;}
+    position: absolute;
+    top: 500px;}
 
-.statuette{
-    width: 600px;}    
+.brands_on_the_map_div{
+    z-index: 20;
+    position: relative;}
+
+.brands_on_the_map{
+    position: absolute;
+    left: -80px;
+}    
+
+.floating_iphone{
+    width: 920px;
+    position: absolute;
+    top: 195px;
+    left: 150px;}
+    
+.project_card{
+    width: 310px;
+    height: 340px;
+    border-radius: 20px;
+    border: #2b2828, solid, 1px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2)
+}    
