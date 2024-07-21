@@ -1,265 +1,236 @@
-.body{
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-bottom: 500px;
+.topsection{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    background-color: rgba(127, 255, 212, 0);
+    width: 100%;
+    height: 80px;
 }
 
-.designlablogo{
-    width: 70px;}
-
-.Work_button {
-    font-family: 'Montserrat';
-    position: absolute;
-    right: 895px;
-    display: inline-block;
-    background-color: #ffffff;
-    border: #ffffff 1px solid;
-    color: #06AFA3;
-    border-radius: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    transition-duration: 500ms;
-    transition: ease-in-out;}
-    
-.Work_button:hover{
-    border-color: #2b2828;}
-
-.About_button {
-    font-family: 'Montserrat';
-    position: absolute;
-    right: 600px;
-    display: inline-block;
-    background-color: #ffffff;
-    color: #06AFA3;
-    border-style: solid;
-    border-color: #ffffff;
-    border-radius: 30px; 
-    border-width: 1px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;}
-
-.Contact_button {
-    font-family: 'Montserrat';
-    position: absolute;
-    right: 300px;
-    display: inline-block;
-    background-color: #ffffff;
-    color:#06AFA3;
-    border-style: solid;
-    border-color: #ffffff;
-    border-radius: 30px;
-    border-width: 1px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;}
-
-.ReachUs_button {
-    font-family: 'Montserrat';
-    position: absolute;
-    right: 0;
-    display: inline-block;
-    background-color: #ffffff;
-    color:#06AFA3;
-    border-style: solid;
-    border-color: #ffffff;
-    border-radius: 30px;
-    border-width: 1px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;}
-
-.Header_elements_div{
-    margin-top: 40px;
+.navbar{
+    display: flex;
+    position: fixed;
+    backdrop-filter: blur(5px);
+    justify-content: space-evenly;
     align-items: center;
+    top: 15px;
+    background-color: #fff1e5c6;
+    width: 260px;
+    height: 40px;
+    border-radius: 50px;
+    left: 930px;
+    z-index: 100;
+}
+
+.navdivider{
+    background-color: #453614;
+    height: 15px;
+    width: 0.5px;
+    border-radius: 20px;
+}
+
+.navlink{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 12px;
+    color: #453614;
+
+}
+
+.logo{
     position: relative;
-    display: flex;}
-    
-
-.designlab_logo_div{
-    display: flex;}
-
-.Buttons_div{
     display: flex;
-    justify-content: space-between;
-    align-items: center;}
+    width: 40px;
+}
 
-.imagine_create{
-    width: 80px;
-    margin-top: 72px;}
-    
-.imagine_create_div{
+.herosection{
     position: absolute;
-    left: 0;}     
-    
-
-.landing_page_elements_div{
-    margin-bottom: 300px;
     display: flex;
-    position: relative;}
-    
-.we_create_txt{
-    font-family: 'montserrat';
-    font-size: 20px;}    
+    top: 50px;
 
-.phenomenal{
-    font-family: 'italiana';
-    font-size: 50px;}
+}
 
-.Visual_experiences{
-    font-family: 'Sorts Mill Goudy';
-    font-style: italic;
-    font-size: 25px;}   
-    
-.we_create_phenomenal{
-    display: inline-block;}
+.imaginecreate{
+    position: relative;
+    width: 210px;
+    left: 200px;
+    top: 100px;
+}
 
-.we_create_phenomenal_div{
+.floatingmac{
+    position: relative;
+    width: 590px;
+    left: 120px;
+}
+
+.textdiv{
+    position: relative;
+    left: 80px;
+    top: 130px;
+}
+
+.wecreate{
+    color: #02AFA3;
+    font-family: 'Astralaga';
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 30px;
+
+}
+
+.wehandcraft{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 15px;
+    font-weight: 400;}
+
+.letsgobutton{
+    font-family: "Space Grotesk", sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    width: 120px;
+    height: 35px;
+    color: #453614;
+    border-color: #453614;
+    border-radius: 20px;
+    border-width: 1px;
+}
+
+.whatwedo{
     position: absolute;
-    left: 140px;
-    top: 70px;
-    position: relative;}
-
-.floating_mac{
-    position: absolute;
-    right: 0;
-    top: -20px;
-    width: 700px;
-    margin-top: 0px;}
-    
-.text_paragraph_div{
-    display: flex;}
-    
-.paragraph_text{
-    font-family: 'montserrat';
+    color: #02AFA3;
+    font-family: "Space Grotesk", sans-serif;
     font-size: 13px;
-    color: #A1A1A1;}
-    
-.lets_go_button{
-    display: flex;
-    font-family: 'montserrat';
-    color: #06AFA3;
-    background-color: #ffffff;
-    border: #06AFA3 solid 1.3px;
-    padding: 15px 38px 15px 38px;
-    border-radius: 30px;
-    margin-top: 20px ;}
+    font-weight: 600;
+    letter-spacing: 2px;
+    top: 770px;
+    left: 580px;}
 
-.lets_go_button:hover{
-    background-color: #06AFA3;
-    color: #ffffff;
-    transition: ease-in-out;
-    transition-duration: 200ms;}
-
-.meticulous_div{
-    display: inline-block;
-    position: relative;
-    margin-top: 100px;
-    margin-bottom: 200px;}    
-    
-.meticulously_handcrafted{
-    position: relative;
-    top: 0;
-    display: flex;
-    justify-self: center;
-    width: 1100px;}
-    
-/*.floating_iphone{
-    width: 760px;
+.brandingsection{
     position: absolute;
-    top: 80px;
-    left: 150px;}*/
+    display: flex;
+    top: 850px;
+}
 
-.phone_hands{
+.textdiv2{
     position: absolute;
-    top: 115px;
-    left: -80px;} 
+    left: 80px;
+    top: 50px;}
 
-.phone_hands_image{
-    width: 1265px;
-}    
+.weputbrands{
+    color: #02AFA3;
+    font-family: 'Astralaga';
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 53px;}
     
+.a-brand-is{
+    position: relative;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    top: -30px;}
+
+.morebutton{
+    position: relative;
+    font-family: "Space Grotesk", sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    width: 120px;
+    height: 35px;
+    color: #453614;
+    border-color: #453614;
+    border-radius: 20px;
+    border-width: 1px;
+    top: -20px;}
+    
+    
+.floatingiphone{
+    position: relative;
+    width: 800px;
+    left: 230px;
+    z-index: 50;
+    top: 30px;
+} 
+
+.descriptgraphic{
+    position: absolute;
+    width: 400px;
+    left: 750px;
+    top: 100px;
+}
+
 .amateurs{
     position: absolute;
-    top: 210px;
-    left: 40px;
-    margin-right: 60px;}
+    color: #453614;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    top: 1420px;
+    left: 480px;
+}
 
-.templates_are_for_amateurs{
-    width: 250px;}    
+.shittext{
+    position: absolute;
+    color: #453614;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    top: 1440px;
+    left: 520px;
+}
+
+.one{
+    position: absolute;
+    top: -20px;
+    font-family: "Space Grotesk", sans-serif;
+    color: #02AFA3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-color: #02AFA3;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 1px;
+
+}
+
+.two{
+    position: absolute;
+    top: 1560px;
+    left: 620px;
+    font-family: "Space Grotesk", sans-serif;
+    color: #02AFA3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-color: #02AFA3;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 1px;}
+
+.meticuloustext{
+    position: absolute;
+    color: #02AFA3;
+    font-family: 'Astralaga';
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 53px;
+    text-align: center;
+    top: 1580px;
+    left: 230px;
+
+}
+
+.phonehands{
+    position: absolute;
+    width: 1300px;
+    top: 1720px;
+}
     
-.we_design{
-    margin-top: 30px;
-    font-family: 'montserrat';
-    text-align: left;
-    font-weight: 400;
-    font-size: 13px;
-    color: #A1A1A1;}
-
-.we_design_sentence{
-    font-weight: 700;
-    font-family: 'montserrat';}
-
-.the_design_process_div{
-    z-index: 50;
-    position: relative;
-    margin-bottom: 1250px;}
-
-.we_follow_div{
-    position: relative;
-    margin-bottom: 400px;}  
     
-.we_follow_text{
-    position: absolute;
-    right: 0;
-    top: 280px;
-    color: #4F4F4F;
-    font-family: 'montserrat';
-    font-size: 20px;
-    text-align: right;}
-
-.exactly_how{
-    font-weight: 700;}    
-
-.design_process_text{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 350px;
-}    
-
-.roadmap{
-    width: 1100px;}
     
-.roadmap_div{
-    position: absolute;
-    top: 500px;}
-
-.brands_on_the_map_div{
-    z-index: 20;
-    position: relative;}
-
-.brands_on_the_map{
-    position: absolute;
-    left: -80px;
-}    
-
-.floating_iphone{
-    width: 920px;
-    position: absolute;
-    top: 195px;
-    left: 150px;}
     
-.project_card{
-    width: 310px;
-    height: 340px;
-    border-radius: 20px;
-    border: #2b2828, solid, 1px;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2)
-}    
